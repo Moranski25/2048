@@ -1,0 +1,12 @@
+.container{
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center the game board vertically */
+}
+.score-board{
+    display:flex; 
+    background-color: #a7bba0;
+    border-radius: 10px;
+    padding: 5px;
+}
