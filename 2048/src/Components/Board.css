@@ -3,19 +3,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh; /* Center the game board vertically */
+  height: 80vh; /*80% of the viewport height*/
 }
   
   .game-board {
     display: grid;
-    grid-template-rows: repeat(4, 100px); /* Adjust size as needed */
-    grid-template-columns: repeat(4, 100px); /* Adjust size as needed */
-    gap: 10px; /* Adjust space between tiles */
+    grid-template-rows: repeat(4, 100px); 
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px; 
     background-color: #bbada0;
     border-radius: 10px;
     padding: 10px;
     position: relative;
   }
   
-  /* Add more styles for different numbers (tile-8, tile-16, etc.) */
   

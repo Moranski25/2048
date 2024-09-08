@@ -6,7 +6,7 @@ const Tile = ({ number, row, col }) => {
   const tileClassName = number ? `tile tile-${number}` : "tile empty-tile";
   
   const tileStyle = {
-    gridRow: row + 1, // CSS grid is 1-based, hence +1
+    gridRow: row + 1, // CSS grid is 1-based
     gridColumn: col + 1,
   };
 

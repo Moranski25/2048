@@ -2,7 +2,7 @@
     display:flex; 
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Center the game board vertically */
+    height: 100vh;
 }
 .score-board{
     display:flex; 
